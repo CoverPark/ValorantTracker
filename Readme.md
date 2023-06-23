@@ -29,7 +29,7 @@ pip install -r requirements.txt
 ```
 4.Remplacer le token dans config.json par votre discord bot token,pour creer :https://discord.com/developers/docs/intro
 
-4.Uniquement si vous utilisez Docker : Construisez l'image Docker :
+5.Uniquement si vous utilisez Docker : Construisez l'image Docker :
 
 ```shell
 docker build -t image_name:1.0.0 .
