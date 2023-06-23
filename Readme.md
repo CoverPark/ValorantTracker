@@ -27,16 +27,15 @@ cd ValorantTracker
 ```shell
 pip install -r requirements.txt
 ```
+4.Remplacer le token dans config.json par votre discord bot token,pour creer :https://discord.com/developers/docs/intro
 
-4.Uniquement si vous utilisez Docker : Remplacez token_bot_discord par votre propre token bot Discord dans le fichier config.json.
-
-5.Uniquement si vous utilisez Docker : Construisez l'image Docker :
+4.Uniquement si vous utilisez Docker : Construisez l'image Docker :
 
 ```shell
 docker build -t image_name:1.0.0 .
 ```
 
-Utilisation
+## Utilisation:
 
 Si vous utilisez Docker:
 
@@ -44,7 +43,7 @@ Si vous utilisez Docker:
 docker run -d image_name:1.0.0
 ```
 
-Sinon
+## Sinon:
 ```shell
 py main.py
 ```
