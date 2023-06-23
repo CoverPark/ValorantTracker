@@ -97,7 +97,7 @@ async def tracker(interaction: discord.Interaction, username: str, tag: str):
             embed.add_field(name="Best Weapon", value=best_weapon, inline=True)
             embed.add_field(name=f"Kills with {best_weapon}", value=kills_bwepaon, inline=True)
             embed.add_field(name=f"HS with {best_weapon}", value=HS_bweapon, inline=True)
-        await interaction.followup.send(f"{interaction.user}", embed=embed)
+        await interaction.followup.send(embed=embed)
     except:
         embed=discord.Embed(title="**Error ❌**",description="**User not found,verify and try again**",color=0xFF0000)
         await interaction.followup.send(embed=embed)  
