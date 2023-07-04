@@ -14,7 +14,7 @@ import sys
 
 intents = discord.Intents().all()
 bot = commands.Bot(command_prefix="/", intents=intents)
-bot.start_time = datetime.datetime.utcnow()
+
 
 
 
